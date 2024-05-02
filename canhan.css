@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+  img {
+    width: 800x;
+    height: 800px;
+    object-fit: cover; /* Ảnh sẽ lấp đầy toàn bộ không gian chứa, có thể cắt bớt phần rìa ảnh */
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #about-me {
+    padding: 20px;
+    text-align: center;
+  }
+     
+  
+  
